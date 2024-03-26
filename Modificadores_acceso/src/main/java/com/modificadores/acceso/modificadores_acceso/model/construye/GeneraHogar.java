@@ -1,7 +1,10 @@
 package com.modificadores.acceso.modificadores_acceso.model.construye;
 
+import static com.modificadores.acceso.modificadores_acceso.model.casa.Persona.OCUPACION;
+
 import com.modificadores.acceso.modificadores_acceso.model.casa.Persona;
 import com.modificadores.acceso.modificadores_acceso.model.jardin.Mascota;
+
 
 public class GeneraHogar {
 	
@@ -19,7 +22,8 @@ public class GeneraHogar {
 		Mascota perro = new Mascota();
 		System.out.println("El perro esta " + perro.dormir());
 	
-		
+		String ocupacion = OCUPACION;
+		System.out.println("Ocupacion del esposo "+ ocupacion);
 		
 	}
 

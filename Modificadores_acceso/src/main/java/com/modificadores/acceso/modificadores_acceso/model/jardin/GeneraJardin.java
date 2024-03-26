@@ -18,6 +18,7 @@ public class GeneraJardin {
 		perro.nombre = "paco";
 		
 		System.out.println(perro.jugar(padre));
+		System.out.println(Persona.saludar());
 	}
 
 }

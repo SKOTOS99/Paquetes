@@ -13,9 +13,14 @@ public class Persona {
 	String apellido;
 	int edad;
 	private char sexo;
+	public static final String OCUPACION = "Ingeniero";
 	
 	public String lanzarPelota() {
 		return "lanza pelota";
+	}
+	
+	public static String saludar() {
+		return "hola";
 	}
 	
 	
